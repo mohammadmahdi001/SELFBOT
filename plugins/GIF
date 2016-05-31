@@ -14,7 +14,7 @@ local function run(msg, matches)
     local user = "user#id"..msg.from.id
     if lock_gif == "yes" then
         send_large_msg(chat, 'Gif is not allowed in this chat!')
-		      savelog(msg.to.id,"@blackhatchannel ["..msg.from.id.."] kicked @thisisarman send@thisisarman gif@thisisarman [gif was @thisisarman locked] !")-- Save to logs
+		      savelog(msg.to.id,"@mmf_channel ["..msg.from.id.."] kicked @thisisarman send@Ww_king_mmf_wW gif@Ww_king_mmf_wW [gif was @Ww_king_mmf_wW locked] !")-- Save to logs
         chat_del_user(chat, user, ok_cb, true)
     end
 end
@@ -25,4 +25,4 @@ return {
   },
   run = run
 }
--- by https://telegram.me/blackhatchannel
+
