@@ -1,7 +1,5 @@
-# [TeleManagerPlus Self Bot](https://telegram.me/Telemanager_ch)
+# [SELFBOT](https://telegram.me/MMF_CHANNEL)
 
-
-**An advanced and powerful SlefBot based on [TeleSeed](https://github.com/SeedTeam/TeleSeed) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
 
 *  _NOTE_ :
 
@@ -400,9 +398,8 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
+    213861807,
+    150289672,
     0,
     YourID
   }
@@ -413,21 +410,8 @@ Create a realm using the `!createrealm` command.
 
 # Support and development
 
-Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
 
 **Do not contact us** in private for support.
-Join our bot development group by invite link, in our channel : [@Telemanager_ch](https://telegram.me/telemanager_ch)
-
-***Speacial Tnx To***
-[Hossein](https://telegram.me/NeonGameFun)
-
-_For graphic design._
-
-# Our team!
-
-My Telegram Id : [@ali_ghoghnoos](telegram.me/ali_ghoghnoos)
+Join our bot development group by invite link, in our channel : [MMF_CHANNEL](https://telegram.me/MMF_CHANNEL)
 
 
-###Our Telegram channel:
-
-[@Telemanager_ch](https://telegram.me/telemanager_ch)
