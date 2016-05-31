@@ -418,6 +418,10 @@ Will return group logs
 !banlist
 Will return group ban list
 
+/echo
+
+!boobs
+
 » U can use both "/" and "!" 
 
 » Only mods, owner and admin can add bots in group
