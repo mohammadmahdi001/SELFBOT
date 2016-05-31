@@ -1,0 +1,69 @@
+local function run(msg)
+if msg.text == "hi" then
+	return "Hello bb"
+end
+if msg.text == "سلام" then
+	return "❤️😍سلام عزیزم "
+end
+if msg.text == "SLM" then
+	return "SLM ❤️😍"
+end
+if msg.text == "خوبی؟" then
+	return "ار❤️ه خوبم تو خوبی ؟"
+end
+if msg.text == "چیکار میکنی ؟" then
+	return "دارم زندگی میکنم "
+end
+if msg.text == "کجایی الان؟" then
+	return "خونم "
+end
+if msg.text == "مهدی" then
+	return "جونم ؟"
+end
+if msg.text == "MMF" then
+	return "بله؟"
+end
+if msg.text == "کونی" then
+	return "خیلی بی ادبی"
+end
+if msg.text == "کسکش" then
+	return "Yخیلی بی ادبی "
+end
+if msg.text == "SEED" then
+	return "راجب سید صحبت نکن سید یدونس❤️😍"
+end
+if msg.text == "اسپم میدی ؟" then
+	return "با این اکانتم نه "
+end
+if msg.text == "Bot" then
+	return "چییییییییییییییییی؟"
+end
+if msg.text == "?" then
+	return "چته؟"
+end
+if msg.text == "فعلا" then
+	return "یاعلی"
+end
+if msg.text == "بای" then
+	return "بای"
+end
+end
+
+return {
+	description = "Chat With Robot Server", 
+	usage = "chat with robot",
+	patterns = {
+		"^[Hh]i$",
+		"^[Hh]ello$",
+		"^[Zz]ac$",
+		"^MMF$",
+		"^[Bb]ot$",
+		"^[Uu]mbrella$",
+		"^[Bb]ye$",
+		"^?$",
+		"^[Ss]alam$",
+		}, 
+	run = run,
+    --privileged = true,
+	pre_process = pre_process
+}
