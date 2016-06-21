@@ -1,0 +1,18 @@
+do
+function run(msg, matches)
+ local reply_id = msg['id']
+  local text =  "جونز؟"..(msg.from.first_name or "").." "..(msg.from.last_name or "")
+reply_msg(msg.id,text,ok_cb,false)
+end 
+return {
+  patterns = {
+    "^مهدی$",
+    "[Mm][Aa][hH][dD][Ii]",
+    "پوکر",
+    "ام ام اف",
+    "[Mm][Mm][Ff]",
+
+  },
+  run = run
+}
+end
